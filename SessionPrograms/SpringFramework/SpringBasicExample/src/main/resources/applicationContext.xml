@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Define a bean named "person" of type "Person" -->
+    <bean id="person" class="com.bharath.learning.springbasicexample.xmlconfiguration.Person">
+        <!-- Set properties for the person bean -->
+        <property name="firstName" value="Bharath" />
+        <property name="lastName" value="Ashok" />
+        <property name="age" value="30" />
+    </bean>
+
+</beans>
